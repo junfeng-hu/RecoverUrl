@@ -1,0 +1,15 @@
+{
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "RecoverUrl.js" ],
+      "matches": [ "http://www.google.com/*", "https://www.google.com/*" ],
+      "run_at": "document_idle"
+   } ],
+   "description": "It recovers original url of Google search results.",
+   "manifest_version": 2,
+   "name": "Recover Url",
+   "version": "0.0.1",
+   "icons": { "16": "icon16.png",
+           "48": "icon48.png",
+          "128": "icon128.png" }
+}
