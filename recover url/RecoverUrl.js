@@ -9,8 +9,8 @@ function mouseUpHander(e){
     var h3 = a.parentNode;
     if (h3.tagName != "H3" || h3.className != "r"){
         var cite = a.parentNode;
-        if (cite.tagName != "CITE" || cite.className != "_pd bc")
-        return;
+        if (cite.tagName != "CITE" || (cite.className != "_pd bc" && cite.className != "_Hd bc"))
+            return;
     }
     console.log("current: " + a.href);
     a.href = a.getAttribute("data-href");
