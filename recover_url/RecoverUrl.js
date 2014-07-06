@@ -4,7 +4,7 @@ function recoverUrlHander(e){
 
     var a = (tagName === "A") ? element : element.parentNode;
 
-    if (tagName !== "A")
+    if (a.tagName !== "A")
         return;
     if (!a.getAttribute("data-href"))
         return;
