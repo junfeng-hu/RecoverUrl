@@ -8,7 +8,7 @@
    "description": "It recovers original url of Google search results.",
    "manifest_version": 2,
    "name": "Recover Url",
-   "version": "0.0.1",
+   "version": "0.0.2",
    "icons": { "16": "icon16.png",
            "48": "icon48.png",
           "128": "icon128.png" },
